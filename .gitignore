@@ -1,8 +1,9 @@
 #폴더무시
 META-INF/
-
+WEB-INF/
 #파일무시
 *.zip
 *.hwp
 *.txt
 *.7z
+*.xls
