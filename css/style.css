@@ -66,6 +66,52 @@ h1, h2, p{
 	margin: 10px 0 20px; /* (바깥)여백: 상10 좌우0 하20픽셀 */
 }
 
+/*========================brand story======================*/
+.main{
+	margin: 0 5%;
+}
 
+.story{
+	display:flex;
+	justify-content: center;
+	gap: 0 38px;
+}
+.story_text p{
+	text-align:left; /*텍스트 정렬*/
+	margin :0;
+}
 
+.value_data ul{
+	display: flex;
+	justify-content: space-between;/*모든 항목에 일정한 공간*/
+	
+}
+.value_data h2{
+	font-size:22px;/*문자크기*/
+	font-weight: normal;/*문자 굵기*/
+}
+.value_data p{
+	font-size:40px;
+}
 
+.family ul{
+	display: flex;
+	justify-content: space-between;}
+
+.family img{
+	width:80%;
+	object-fit: cover;
+}
+
+.partners ul{
+	display: flex;
+	justify-content: space-between;}
+	
+.parteners img{
+	width:80%;
+	object-fit: cover;
+}
+
+ul{
+	list-style-type: none;
+}
